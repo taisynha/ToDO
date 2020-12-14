@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+.checked {
+    text-decoration: line-through;
+  }
+  
+div#tarefas{
+    max-width: 1000px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0px;
+}
+
+div#tarefas h1{
+    text-align: center;
+    color: #0b0065;
+}
+
+div#tarefas h1:hover{
+    color: #3b5996;
+}
+
+.conteudo{
+    margin-left: 600px;
+    border: 1px solid black;
+    float: left;
+    list-style: none;
+}
+fieldset{
+    float: left;
+    width: 700px;
+}
+span{
+    background-color: tomato;
+    margin-left: 600px;
+}
+.checked {
+    text-decoration: line-through;
+  }
